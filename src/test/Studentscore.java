@@ -6,7 +6,6 @@ public class Studentscore {
 	int score1 = 80;
 	int score2 = 60;
 	int score3 = 90;
-	int score;
 	int avg = (score1+score2+score3)/3;
 	
 	if(score1 >= 90) {
@@ -21,3 +20,5 @@ public class Studentscore {
 	System.out.println("평균 : "+avg);
 	}
 }
+
+
