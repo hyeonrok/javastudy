@@ -1,6 +1,6 @@
 package test;
 
-public class Tree {
+public class Tree2 {
 
 	public static void main(String[] args) {
 		String a = "*";
@@ -16,10 +16,9 @@ public class Tree {
 					
 				}
 				System.out.println(a);
-				a +="**";
+				a +="*";
 			}
 			
 	}
 
 }
-
