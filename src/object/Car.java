@@ -8,6 +8,8 @@ public class Car {
 	int carType;
 	double power;
 	
+	private int aaa;
+	
 	Car(String brand, String name, int carType, double power) {
 		this.brand = brand;
 		this.name = name;
@@ -33,5 +35,46 @@ public class Car {
 	 void right() {
 		System.out.println("우회전");
 	}
+
+	public String getBrand() {
+		return brand;
+	}
+
+	public void setBrand(String brand) {
+		this.brand = brand;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getCarType() {
+		return carType;
+	}
+
+	public void setCarType(int carType) {
+		this.carType = carType;
+	}
+
+	public double getPower() {
+		return power;
+	}
+
+	public void setPower(double power) {
+		this.power = power;
+	}
+
+	public int getAaa() {
+		return aaa;
+	}
+
+	public void setAaa(int aaa) {
+		this.aaa = aaa;
+	}
+	 
 	
 }

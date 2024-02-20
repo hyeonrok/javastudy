@@ -59,6 +59,12 @@ public class Excar {
 		System.out.println("car.name : " + car3.name);
 		System.out.println("car.carType : " + car3.carType);
 		System.out.println("car.power : " + car3.power);
+		
+		System.out.println("--------------------");
+		
+		car.setAaa(1);
+		
+		System.out.println("car.getAaa() : " + car.getAaa());
 	}
 
 }
