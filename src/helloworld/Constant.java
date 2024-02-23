@@ -3,6 +3,7 @@ package helloworld;
 public class Constant {
 
 	/*배열 배우면 바꿔보기*/
+	
 	private String korean;
 	private String math;
 	private String english;
