@@ -6,13 +6,8 @@ public class SubjectTest {
 
 		/*배열 배우면 바꿔보기*/
 		
-		Constant constant = new Constant();
-		constant.setKorean("국어");
-		constant.setEnglish("영어");
-		constant.setMath("수학");
+		Score score = new Score("국어", "Tony", 90, 100, 100);
 		
-		constant.setStudentname1("Tony");
-		constant.setStudentname2("Jenny");
-		constant.setStudentname3("IU");
+		System.out.println(get);
 	}
 }
